@@ -13,14 +13,17 @@ git clone https://github.com/Luramoth/l-sync
 cd l-sync
 ```
 Then here you can choose to use Cargo or my own personal build script
-use `--linux` to compile for linux
-use `--windows` to compile for windows
-use `--all` to compile for both
-append `--release` to compile any of those in release mode
 
-example:
+### prerequisates:
+you should have [rustup](https://www.rust-lang.org/tools/install) installed in order to have the whole thing work.
+
+### using the custom build script:
 ```bash
 bash build.sh --linux --release #this builds the program for Linux in release mode
 ```
+use `--linux` to compile for linux,
+use `--windows` to compile for windows,
+use `--all` to compile for both,
+append `--release` to compile any of those in release mode
 
 ![agplv3-155x51](https://user-images.githubusercontent.com/85266594/161496819-22de1d6d-6a8e-4a65-865a-86af5901c834.png)
