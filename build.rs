@@ -1,3 +1,4 @@
+//use fl2rust automatically to generate the UI when the program compiles
 fn main() {
     use std::path::PathBuf;
     use std::env;
