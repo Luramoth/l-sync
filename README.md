@@ -1,4 +1,4 @@
-![LMTK_l-sync](https://user-images.githubusercontent.com/85266594/161490546-b9080a9d-f58f-4c2a-abc6-cc0e9e35b594.png)
+![LMTK_l-sync](https://user-images.githubusercontent.com/85266594/161609849-03ae1c3b-5cdc-4e45-97a6-adec11676a62.png)
 ---
 # L-Sync or, Lura-Sync
 A content creator centered synchronisation program, not to be confused with Nvidia's G-Sync
