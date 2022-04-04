@@ -7,12 +7,12 @@ class UserInterface {open
   Function {make_window()} {open
   } {
     Fl_Window wind {
-      label {L-Sync} open
-      xywh {103 303 995 690} type Double color 32 visible
+      label {L-Sync} open selected
+      xywh {103 303 995 690} type Double color 32 xclass {L-Sync} visible
     } {
       Fl_Button but {
-        label Sync selected
-        xywh {0 0 995 690} box ROUNDED_BOX down_box ROUNDED_BOX color 56 selection_color 55 labelsize 100 labelcolor 36
+        label Sync
+        xywh {0 0 995 690} box ROUNDED_BOX down_box ROUNDED_BOX color 32 selection_color 55 labelsize 100 labelcolor 36
       }
     }
   }
