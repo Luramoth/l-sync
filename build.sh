@@ -31,4 +31,6 @@ elif [ "$1" = "--all" ]; then
 
 	cargo build --target x86_64-pc-windows-gnu $2
 	cargo build --target x86_64-unknown-linux-gnu $2
+else
+	cargo build $2
 fi
