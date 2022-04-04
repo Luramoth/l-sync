@@ -1,4 +1,4 @@
-use std::time::Duration;
+use std::{time::Duration};
 
 use fltk::{prelude::*, *}; // Library for GUI
 use rodio::{OutputStream, Sink, source::SineWave, Source}; // Library for audio playback
@@ -20,9 +20,15 @@ mod ui; // reference to ui.rs
  You should have received a copy of the GNU Affero General Public License
  along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 
+
 fn main() {
 	let app = app::App::default();
 	let mut ui = ui::UserInterface::make_window(); // create a window
+
+	let icon = image::PngImage::load("l-sync_icon.png").unwrap();
+
+	ui.wind.set_icon(Some(icon));
+
 
 	//function that plays when the button is pressed
 	ui.but.set_callback(move |_| {
