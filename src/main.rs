@@ -4,7 +4,7 @@ use fltk::{prelude::*, *}; // Library for GUI
 use rodio::{OutputStream, Sink, source::SineWave, Source}; // Library for audio playback
 mod ui; // reference to ui.rs
 
-/*  l-sync a content creator syncronisation tool
+/*  l-sync a content creator synchronization tool
  Copyright (C) 2022  Luramoth
 
  This program is free software: you can redistribute it and/or modify
